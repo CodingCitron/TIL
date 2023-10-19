@@ -1,17 +1,32 @@
 import Sidebar from '@components/Sidebar'
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 
 const menus = [
-  
+
 ]
 
 function App() {
   const [isOpen, setIsOpen] = useState(false)
-  
+  const sidebar = useRef()
+
+  useEffect(() => {
+    const handler = (event) => {
+      if(!sidebar.current.contains(event.target)) {
+        setIsOpen(false)
+      }
+    }
+
+    document.addEventListener('mousedown', handler)
+    return () => {
+      document.removeEventListener('mousedown', handler)
+    }
+  }, [sidebar])
+
   return (
     <>
       <div className='wrap'>
-        <Sidebar 
+        <Sidebar
+          ref={sidebar}
           isOpen={isOpen}
           closeBtn={() => setIsOpen(false)}
         />
