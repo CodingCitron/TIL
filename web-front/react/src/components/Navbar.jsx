@@ -1,3 +1,4 @@
+/* https://www.youtube.com/watch?v=IF6k0uZuypA */
 const Navbar = ({ children }) => {
   return (
     <nav className="navbar">
