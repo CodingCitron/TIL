@@ -1,0 +1,1 @@
+/* https://inpa.tistory.com/entry/JS-%F0%9F%93%9A-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EA%B0%9D%EC%B2%B4-%EC%82%AC%EC%9A%A9%EB%B2%95 */

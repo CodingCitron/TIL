@@ -1,5 +1,9 @@
-import Sidebar from '@components/Sidebar'
 import { useEffect, useRef, useState } from 'react'
+
+import Sidebar from '@components/Sidebar'
+import Navbar from '@components/Navbar'
+import NavbarItem from './components/NavbarItem'
+import DropdownMenu from './components/DropdownMenu'
 
 const menus = [
 
@@ -34,7 +38,18 @@ function App() {
           <button onClick={() => setIsOpen(true)}>
             open-btn
           </button>
-          테스트
+          <div>
+            <Navbar>
+              <NavbarItem />
+              <NavbarItem />
+              <NavbarItem />
+              <NavbarItem />
+              <NavbarItem>
+                <DropdownMenu />
+              </NavbarItem>
+              <NavbarItem />
+            </Navbar>
+          </div>
         </div>
       </div>
     </>
