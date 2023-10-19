@@ -1,0 +1,1 @@
+[타입스크립트 핸드북](https://typescript-kr.github.io/pages/tutorials/ts-for-the-new-programmer.html)
