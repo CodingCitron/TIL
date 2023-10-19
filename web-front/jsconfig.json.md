@@ -1,0 +1,1 @@
+[jsconfig docs](https://code.visualstudio.com/docs/languages/jsconfig)
