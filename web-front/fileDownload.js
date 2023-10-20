@@ -1,4 +1,4 @@
-function handleFileDownload() {
+async function handleFileDownload() {
   const response = await fetch('api address');
   const file = await response.blob(); 
   const downloadUrl = window.URL.createObjectURL(file); // 해당 file을 가리키는 url 생성
