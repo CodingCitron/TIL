@@ -4,6 +4,7 @@ const daysElement = document.querySelector('.days-wrap')
 const dayElement = document.querySelector('.day-wrap')
 const prevBtn = document.querySelector('.prev')
 const nextBtn = document.querySelector('.next')
+const yearMonth = document.querySelector('.year-month')
 
 let year = new Date().getFullYear()
 let month = new Date().getMonth() + 1
@@ -61,14 +62,14 @@ function drawMonth(list, inputEl) {
 
     inputEl.append(div)
   })
-}
 
-drawMonth(makeMonth(year, month), dayElement)
+  yearMonth.textContent = `${year}년 ${month}월`
+}
 
 function prev () {
   if(month === 1) {
     year -= 1
-    month = 1
+    month = 12
   } else {
     month -= 1
   }
@@ -86,6 +87,12 @@ function next () {
 
   drawMonth(makeMonth(year, month), dayElement)
 }
+
+function init () {
+  drawMonth(makeMonth(year, month), dayElement)
+}
+
+init ()
 
 prevBtn.addEventListener('click', prev)
 nextBtn.addEventListener('click', next)
