@@ -8,6 +8,8 @@ import UseInputTest from './test/UseInputTest'
 import UseTabsTest from './test/UseTabsTest'
 import UseTitleTest from './test/UseTitleTest'
 import UseClickTest from './test/UseClickTest'
+import UseConfirmTest from './test/UseConfirmTest'
+import UsePreventLeaveTest from './test/UsePreventLeaveTest'
 
 const menus = [
 
@@ -60,6 +62,8 @@ function App() {
             <UseTabsTest />
             <UseTitleTest />
             <UseClickTest />
+            <UseConfirmTest />
+            <UsePreventLeaveTest />
           </div>
         </div>
       </div>
