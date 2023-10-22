@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+            }
+
+            li {
+                list-style: none;
+            }
+
+            button {
+                width: 100%;
+                cursor: pointer;
+                border: none;
+                background-color: transparent;
+            }
+
+            .dropdown {
+                display: flex;
+            }
+
+            .dropdown .dropdown-menu {
+                width: 100px;
+                background-color: silver;
+            }
+
+            .dropdown .dropdown-item {
+                display: none;
+            }
+
+            .dropdown .dropdown-item.open {
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <ul class="dropdown">
+            <li class="dropdown-menu">
+                <button>
+                    A 메뉴
+                </button>
+                <ul class="dropdown-item">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                </ul>
+            </li>
+            <li class="dropdown-menu">
+                <button>
+                    B 메뉴
+                </button>
+                <ul class="dropdown-item">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                </ul>
+            </li>
+            <li class="dropdown-menu">
+                <button>
+                    C 메뉴
+                </button>
+                <ul class="dropdown-item">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                </ul>
+            </li>
+            <li class="dropdown-menu">
+                <button>
+                    D 메뉴
+                </button>
+                <ul class="dropdown-item">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                </ul>
+            </li>
+        </ul>
+        <script>
+            const dropdown = document.querySelector('.dropdown')
+
+            dropdown.addEventListener('mouseover', mouseoverHandler)
+            dropdown.addEventListener('mouseleave', mouseleave)
+
+            function mouseoverHandler(event) {
+                console.log(event)
+            }
+
+            function mouseleave(event) {
+
+            }
+        </script>
+    </body>
+</html>
