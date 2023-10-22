@@ -4,6 +4,10 @@ import Sidebar from '@components/Sidebar'
 import Navbar from '@components/Navbar'
 import NavbarItem from './components/NavbarItem'
 import DropdownMenu from './components/DropdownMenu'
+import UseInputTest from './test/UseInputTest'
+import UseTabsTest from './test/UseTabsTest'
+import UseTitleTest from './test/UseTitleTest'
+import UseClickTest from './test/UseClickTest'
 
 const menus = [
 
@@ -49,6 +53,13 @@ function App() {
               </NavbarItem>
               <NavbarItem />
             </Navbar>
+          </div>
+          {/* test */}
+          <div>
+            <UseInputTest />
+            <UseTabsTest />
+            <UseTitleTest />
+            <UseClickTest />
           </div>
         </div>
       </div>
