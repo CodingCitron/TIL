@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react"
 
-const useClick = (onClick) => {
-    if(typeof onClick !== "function") {
+const useHover = (onHover) => {
+    if(typeof onHover !== "function") {
         return
     }
 
@@ -9,12 +9,12 @@ const useClick = (onClick) => {
 
     useEffect(() => {
         if(element.current) {
-            element.current.addEventListener('click', onClick)
+            element.current.addEventListener('mouseenter', onClick)
         }
 
         return () => {
             if(element.current) {
-                element.current.removeEventListener('click', onClick)
+                element.current.removeEventListener('mouseenter', onClick)
             }
         }
     }, [])
@@ -22,4 +22,4 @@ const useClick = (onClick) => {
     return element
 }
 
-export default useClick
+export default useHover
