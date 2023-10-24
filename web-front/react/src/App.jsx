@@ -10,12 +10,13 @@ import UseTitleTest from './test/UseTitleTest'
 import UseClickTest from './test/UseClickTest'
 import UseConfirmTest from './test/UseConfirmTest'
 import UsePreventLeaveTest from './test/UsePreventLeaveTest'
-import UseBeforeLeave from './test/UseBeforeLeave'
+import UseBeforeLeaveTest from './test/UseBeforeLeaveTest'
 import UseFadeInTest from './test/UseFadeInTest'
 import UseNetworkTest from './test/UseNetworkTest'
 import UseScrollTest from './test/UseScrollTest'
 import UseFullScreenTest from './test/UseFullScreenTest'
 import UseNotificationTest from './test/UseNotificationTest'
+import UseAxiosTest from './test/UseAxiosTest'
 
 const menus = [
 
@@ -70,12 +71,13 @@ function App() {
             <UseClickTest />
             <UseConfirmTest />
             <UsePreventLeaveTest />
-            <UseBeforeLeave />
+            <UseBeforeLeaveTest />
             <UseFadeInTest />
             <UseNetworkTest />
             <UseScrollTest />
             <UseFullScreenTest />
             <UseNotificationTest />
+            <UseAxiosTest />
           </div>
         </div>
       </div>
