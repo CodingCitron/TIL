@@ -1,5 +1,7 @@
 import webbrowser
 
+# https://docs.python.org/ko/3/library/webbrowser.html
+
 urls = [
   "https://wikidocs.net/190",
   "https://wikidocs.net/150542",
