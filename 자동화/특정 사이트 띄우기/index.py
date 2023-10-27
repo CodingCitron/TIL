@@ -18,7 +18,8 @@ urls = [
   "https://www.inflearn.com/course/vue-%EC%99%84%EB%B2%BD-%EC%8B%A4%EC%A0%84/dashboard",
   "https://shlee0882.tistory.com/110",
   "https://github.com/CodingCitron",
-  "https://www.notion.so/"
+  "https://www.notion.so/",
+  "https://docs.djangoproject.com/en/4.2/intro/tutorial01/"
 ]
 
 # 아이디어 컴퓨터 관리자

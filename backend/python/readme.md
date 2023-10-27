@@ -10,5 +10,10 @@ python -m pip install Django
 
 - 프로젝트 생성
 ```
-django-admin startproject mysite
+django-admin startproject [mysite]
+```
+
+- 앱 생성
+```
+ python manage.py startapp [myapp]
 ```
