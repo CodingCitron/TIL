@@ -1,7 +1,9 @@
 function DragElement(element, option) {
     this.element = element
 
-    Object.keys(option).forEach(key => this[key] = option[key])
+    if(typeof option === "object" && !Array.isArray(option)) {
+        Object.keys(option).forEach(key => this[key] = option[key])
+    }
     this.init()
 }
 
@@ -28,7 +30,7 @@ DropElement.prototype.init = function () {
 }
 
 function DragAndDrop(drag, drop) {
-    
+
 }
 
 const dragEl = new DragElement(document.getElementById("dragElement"))
