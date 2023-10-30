@@ -3,3 +3,5 @@ node_modules
 .env
 
 */auto-login/*.png
+
+storybook-static
