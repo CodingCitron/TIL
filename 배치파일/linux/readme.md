@@ -1,0 +1,1 @@
+[기본 명령어 정리](https://m.hanbit.co.kr/channel/category/category_view.html?cms_code=CMS6390061632)
