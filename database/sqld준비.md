@@ -10,3 +10,11 @@
 
 # 데이터 타입 정리
 
+## 엔터티 Entity
+- 엔터티는 실체, 객체
+[참조](https://dataonair.or.kr/db-tech-reference/d-guide/sql/?mod=document&uid=326)
+[참조2](https://coding-factory.tistory.com/870)
+
+## 속성
+
+##
