@@ -5,15 +5,15 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   resolve: {
-    alias: [ 
-      {
-        find: "@components", replacement: "/src/components"
-      },
+    alias: [
       {
         find: "@", replacement: "/src"
       },
       {
         find: "@assets", replacement: "/src/assets"
+      },
+      {
+        find: "@components", replacement: "/src/components"
       }
     ]
   }

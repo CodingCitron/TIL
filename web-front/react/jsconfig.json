@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "target": "es6",
     "paths": {
-      "@/*": ["/src/*"],
-      "@components/*": ["/src/components/*"],
-      "@assets/*": ["/src/assets/*"]
+      "@/*": ["src/*"],
+      "@assets/*": ["src/assets/*"],
+      "@components/*": ["src/components/*"],
     }
   }
 }
