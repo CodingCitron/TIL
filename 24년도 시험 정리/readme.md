@@ -1,0 +1,1 @@
+[나무위키 컴퓨터 분야 자격 제도](https://namu.wiki/w/%ED%8B%80:%EC%BB%B4%ED%93%A8%ED%84%B0%20%EB%B6%84%EC%95%BC%20%EC%9E%90%EA%B2%A9%EC%A6%9D)

@@ -1,0 +1,1 @@
+[AOT 컴파일](https://ko.wikipedia.org/wiki/AOT_%EC%BB%B4%ED%8C%8C%EC%9D%BC)

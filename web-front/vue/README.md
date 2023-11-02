@@ -1,7 +1,14 @@
-# Vue 3 + Vite
+# 참고할만한 깃 
+- https://github.com/newbee-ltd/newbee-mall-vue3-app
+- https://github.com/tobe-fe-dalao/fast-vue3
+- https://github.com/HalseySpicy/Geeker-Admin
+- https://github.com/zclzone/vue-naive-admin
+- https://github.com/Tencent/tdesign-vue-next-starter
+- https://github.com/code-device/x-build
+- https://github.com/ttk-cli/uni-vue3-vite-ts-pinia
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+<!-- ref 사용 방식 -->
+- https://github.com/flipped-aurora/gin-vue-admin
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+[pinia 공식](https://github.com/vuejs/pinia)
+[pinia-plugin-persistedstate](https://github.com/prazdevs/pinia-plugin-persistedstate)\

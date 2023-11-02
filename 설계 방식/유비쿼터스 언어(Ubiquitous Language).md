@@ -1,0 +1,2 @@
+[유비쿼터스 언어](https://loopstudy.tistory.com/334#%ED%--%--%EB%A-%-C%EC%A-%-D%ED%-A%B-%EB%A-%BC%--%EC%A-%--%ED%--%--%ED%--%--%EB%-B%A-%EB%B-%B-%EB%A-%B-%--%EB%-B%A-%EC%-D%-C%EA%B-%BC%--%EA%B-%--%EC%-D%--%--%EC%--%--%ED%--%A-%EC%-D%--%--%EA%B-%AA%EC%--%B-%EB%B-%BC%--%EC%--%--%--%EC%-E%--%EB%-B%A--%C-%A-)
+[유비쿼터스 언어의 중요성](https://medium.com/dtevangelist/msa-%EC%97%90%EC%84%9C-%EC%9C%A0%EB%B9%84%EC%BF%BC%ED%84%B0%EC%8A%A4-%EC%96%B8%EC%96%B4-%EB%B3%B4%ED%8E%B8-%EC%96%B8%EC%96%B4-%EC%9D%98-%EC%A4%91%EC%9A%94%EC%84%B1-ca22b96aaeea)
