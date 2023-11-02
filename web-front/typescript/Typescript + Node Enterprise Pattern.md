@@ -1,0 +1,1 @@
+[참조](https://medium.com/slalom-build/typescript-node-js-enterprise-patterns-630df2c06c35)
