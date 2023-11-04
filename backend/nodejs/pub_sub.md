@@ -1,0 +1,1 @@
+[pub sub 구현](https://inpa.tistory.com/entry/REDIS-%F0%9F%93%9A-Nodejs-%EC%97%90%EC%84%9C-PubSub-%EA%B8%B0%EB%8A%A5-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)
