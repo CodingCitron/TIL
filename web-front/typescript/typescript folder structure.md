@@ -1,0 +1,1 @@
+[HOW TO STRUCTURE TYPESCRIPT PROJECT](https://dev.to/udayanmaurya/how-to-ts-for-client-side-application-36ig)
