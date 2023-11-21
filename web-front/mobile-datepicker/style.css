@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#datePicker {
+  display: flex;
+  gap: 4px;
+}
+
+#datePicker .Year,
+#datePicker .Month,
+#datePicker .Day {
+  display: flex;
+  flex-direction: column;
+  min-width: 48px;
+  height: 100px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#datePicker .Year::-webkit-scrollbar,
+#datePicker .Month::-webkit-scrollbar,
+#datePicker .Day::-webkit-scrollbar {
+  width: 0px;
+}
