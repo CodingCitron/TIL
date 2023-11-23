@@ -108,3 +108,5 @@ nest g controller auth --no-spec
 # auth 서비스
 nest g service auth --no-spec
 ```
+
+[config](https://docs.nestjs.com/techniques/configuration)
