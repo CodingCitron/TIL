@@ -1,0 +1,3 @@
+- https://www.reddit.com/r/vuejs/comments/f5xoxj/what_is_the_use_of_public_and_assets_folders/
+- https://dariamykhailova-edicasoft.medium.com/static-vs-src-assets-in-vue-cli-webpack-templates-ecd2961ac567
+- https://cli.vuejs.org/guide/html-and-static-assets.html

@@ -1,0 +1,4 @@
+- https://g-study.tistory.com/40
+- https://joshua1988.github.io/web-development/vuejs/vuex-getters-mutations/
+- [mutations, commit](https://jwjwj.tistory.com/72)
+- [vuex 역할 정리](https://jwjwj.tistory.com/73)
