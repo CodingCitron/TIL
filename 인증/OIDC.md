@@ -1,0 +1,1 @@
+[OpenID(OIDC) 개념과 동작원리](https://hudi.blog/open-id/)
