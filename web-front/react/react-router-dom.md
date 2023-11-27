@@ -1,6 +1,7 @@
 [react-router docs](https://reactrouter.com/en/main)
 [react-router 정리](https://velog.io/@tjdgus0528/React-Router-v6-%EC%A0%95%EB%A6%AC)
 [querystring 사용하기](https://systorage.tistory.com/entry/React-React-Router-v6%EC%97%90%EC%84%9C-query-parameter-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EB%B2%95)
+[querystring useLocaiton](https://systorage.tistory.com/entry/React-React-Router-v6%EC%97%90%EC%84%9C-query-parameter-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EB%B2%95)
 
 # 설치
 
