@@ -75,7 +75,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   app.useGlobalPipes(GlobalPipes); // 이런식으로 사용
   await app.listen(3000);
-}
+}ㄱ
 
 bootstrap();
 ```
@@ -127,5 +127,6 @@ nest g service auth --no-spec
 ```
 
 [config](https://docs.nestjs.com/techniques/configuration)
-
 [refresh token](https://soonyubi.github.io/jwt-refresh-token/)
+[jwt](https://charming-kyu.tistory.com/39)
+[zod + zustand + reactQuery로 auth 구현](https://velog.io/@zad1264/Zod-Zustand-ReactQuery%EB%A1%9C-auth-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0-feat.-ErrorBoundary)
