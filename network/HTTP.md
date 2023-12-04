@@ -54,3 +54,7 @@
 - Content-Type: text/javascript
 - Content-Type: text/plain
 - Content-Type: text/xml
+
+### HTTP STATUS
+
+[MDN](https://developer.mozilla.org/ko/docs/Web/HTTP/Status/401)
