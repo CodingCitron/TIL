@@ -17,3 +17,29 @@ ex) query: { page: 1 }
 ## vue3
 
 [중첩 라우터](https://v3.router.vuejs.org/kr/guide/essentials/nested-routes.html)
+
+```javascript
+{
+    path: "/auth",
+    name: "auth",
+    redirect: { name: "login" },
+    children: [
+      {
+        path: "",
+        alias: ["login"],
+        name: "login",
+        component: () => import("@/views/common/LoginView.vue"),
+      },
+      {
+        path: "register",
+        name: "register",
+        component: () => import("@/views/common/RegisterView.vue"),
+      },
+      {
+        path: "change-password",
+        name: "change-password",
+        component: () => import("@/views/common/ChangePasswordView.vue"),
+      },
+    ],
+  },
+```
