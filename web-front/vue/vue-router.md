@@ -15,3 +15,5 @@ ex) query: { page: 1 }
 ```
 
 ## vue3
+
+[중첩 라우터](https://v3.router.vuejs.org/kr/guide/essentials/nested-routes.html)
