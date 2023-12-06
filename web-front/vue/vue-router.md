@@ -43,3 +43,11 @@ ex) query: { page: 1 }
     ],
   },
 ```
+
+# navigation guard
+
+- https://router.vuejs.org/guide/advanced/navigation-guards.html
+
+# vue3 router push
+
+- https://router.vuejs.org/guide/essentials/navigation.html
