@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.slide-wrap {
+}
+
+.slide-views {
+  display: flex;
+  overflow: hidden;
+}
+
+.slide-item {
+  /* flex: 1 0 100%; */
+}
+
+.slide-item > img {
+  display: block;
+}
+
+/* .slide-item > img {
+  width: 100%;
+} */
