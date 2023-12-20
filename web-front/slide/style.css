@@ -4,11 +4,11 @@
 }
 
 .slide-wrap {
+  overflow: hidden;
 }
 
 .slide-views {
   display: flex;
-  overflow: hidden;
 }
 
 .slide-item {
@@ -22,3 +22,9 @@
 /* .slide-item > img {
   width: 100%;
 } */
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
