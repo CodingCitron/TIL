@@ -4,6 +4,8 @@
 }
 
 .slide-wrap {
+  padding-top: 40px;
+  padding-bottom: 40px;
   overflow: hidden;
 }
 
@@ -13,6 +15,7 @@
 
 .slide-item {
   /* flex: 1 0 100%; */
+  overflow: hidden;
 }
 
 .slide-item > img {
@@ -27,4 +30,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
 }
