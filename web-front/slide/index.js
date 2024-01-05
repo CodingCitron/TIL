@@ -103,3 +103,5 @@ const nextBtn = document.querySelector("#next");
 
 prevBtn.addEventListener("click", slide.prev.bind(slide));
 nextBtn.addEventListener("click", slide.next.bind(slide));
+
+new Slide();

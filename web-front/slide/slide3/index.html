@@ -4,6 +4,88 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      * {
+        list-style: none;
+      }
+
+      .slide-view {
+        display: flex;
+        align-items: center;
+        height: 224px;
+      }
+
+      .slide-item {
+        width: 128px;
+        height: 179.2px;
+        /* background-color:; */
+        border: 1px solid red;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      .slide-item img {
+        width: 100%;
+        height: 100%;
+      }
+
+      .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div class="center overflow-hidden">
+      <div class="slide-view" ref="slideView">
+        <ul class="slides" ref="slideWrap">
+          <li class="slide-item" tabindex="-1">
+            <img
+              src="https://source.unsplash.com/random/300x300/?game
+          "
+              alt="랜덤 이미지"
+            />
+          </li>
+          <li class="slide-item" tabindex="-1">
+            <img
+              src="https://source.unsplash.com/random/300x300/?picture
+        "
+              alt="랜덤 이미지"
+            />
+          </li>
+          <li class="slide-item" tabindex="-1">
+            <img
+              src="https://source.unsplash.com/random/300x300/?programming
+      "
+              alt="랜덤 이미지"
+            />
+          </li>
+          <li class="slide-item" tabindex="-1">
+            <img
+              src="https://source.unsplash.com/random/300x300/?building
+    "
+              alt="랜덤 이미지"
+            />
+          </li>
+          <li class="slide-item" tabindex="-1">
+            <img
+              src="https://source.unsplash.com/random/300x300/?city
+  "
+              alt="랜덤 이미지"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="slide.js"></script>
+    <script>
+      const slide = new Slide({
+        slideView: document.querySelector(".slide-view"),
+        slideWrap: document.querySelector(".slides"),
+        gap: 15,
+      });
+    </script>
+  </body>
 </html>
