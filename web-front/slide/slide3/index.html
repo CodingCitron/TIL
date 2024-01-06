@@ -117,19 +117,19 @@
         slideView: document.querySelector(".slide-view"),
         slideWrap: document.querySelector(".slide-wrap"),
         gap: 35,
-        base: "left",
+        base: "center",
+        on: {
+          "slide-change": (e) => {
+            console.log(e);
+          },
+        },
       });
-      console.log(slide);
+
       const prev = document.querySelector("#prev");
       const next = document.querySelector("#next");
 
-      prev.addEventListener("click", () => {
-        slide.index = slide.index + 1;
-      });
-
-      next.addEventListener("click", () => {
-        slide.index = slide.index - 1;
-      });
+      prev.addEventListener("click", slide.prev.bind(slide));
+      next.addEventListener("click", slide.next.bind(slide));
     </script>
   </body>
 </html>
